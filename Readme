@@ -1,0 +1,8 @@
+Hello World!
+echo "# Trial-run" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/cw3467221/Trial-run.git
+git push -u origin main
